@@ -1,11 +1,14 @@
+      *>IDENTIFICATION DIVISION. Programa a ser executado
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HELLO.
-       
+
+      *>DATA DIVISION. Declaração de variáveis
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        01 WS-MENSAGEM PIC X(30) VALUE 'Bem-vindo ao mundo COBOL!'.
        01 WS-NOME     PIC X(20).
-       
+
+      *>PROCEDURE DIVISION. Lógica do programa 
        PROCEDURE DIVISION.
            PERFORM INICIO
            STOP RUN.
